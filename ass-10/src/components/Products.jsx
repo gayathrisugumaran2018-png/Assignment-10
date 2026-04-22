@@ -16,7 +16,7 @@ alert("Item Added to Cart")
         <div className='grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {
                 products.map(data => (
-                    <div key={data.id} className='bg-pink-200 shadow-md rounded-lg p-4'>
+                    <div key={data.id} className='bg-green-200 shadow-md rounded-lg p-4'>
                         <img className='w-full h-60 object-cover rounded-md' src= {data.Image} alt=''></img>
 
 <h3 className='text-lg font-semibold mt-3'>{data.name}</h3>

@@ -10,7 +10,7 @@ function Navbar() {
           
     <h1 className='text-3xl font-bold text-fuchsia-800 flex items-center gap-2'>
   <FaShoppingCart size={24} className="text-blue-600" />
-  <span>GIGA SHOP</span>
+  <span>GIGA SHOP!!</span>
 </h1>
     
 

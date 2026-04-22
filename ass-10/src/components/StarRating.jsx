@@ -7,7 +7,7 @@ const StarRating = ({ rating }) => {
         <FaStar
           key={index}
           className="mr-1"
-          color={index < rating ? "#f1fd44" : "#d1d5db"} // yellow & gray
+          color={index < rating ? "#e8f807" : "#d1d5db"} // yellow & gray
         />
       ))}
     </div>
